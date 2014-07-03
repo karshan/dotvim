@@ -16,3 +16,5 @@ colorscheme wombat256
 
 setlocal omnifunc=necoghc#omnifunc
 inoremap <S-TAB> <C-X><C-O>
+
+au BufNewFile,BufRead *.jmacro setlocal ft=javascript
